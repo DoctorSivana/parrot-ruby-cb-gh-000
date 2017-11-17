@@ -4,5 +4,5 @@ def parrot(string)
   string = gets.strip
   puts "#{string}"
   return string
-  
+
 end
