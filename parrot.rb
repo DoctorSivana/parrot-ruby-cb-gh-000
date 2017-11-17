@@ -1,8 +1,8 @@
 # Create method `parrot` that outputs a given phrase and
 # returns the phrase
-def parrot(string = "Squawk!")
-  string = gets.strip
-  puts "#{string}"
-  return string
+def parrot(phrase = "Squawk!")
+  phrase = gets.strip
+  puts "#{phrase}"
+  return phrase
 
 end
