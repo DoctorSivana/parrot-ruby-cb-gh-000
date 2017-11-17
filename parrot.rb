@@ -2,7 +2,7 @@
 # returns the phrase
 def parrot(phrase = "Squawk!")
   phrase = gets.strip
-  puts "#{phrase}"
+  puts "phrase"
   return phrase
 
 end
